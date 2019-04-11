@@ -1,3 +1,4 @@
+require 'pry'
 class Transfer
   attr_accessor :status, :sender, :receiver, :amount
 
@@ -34,6 +35,7 @@ class Transfer
       @sender.balance += @amount
       @receiver.balance -= @amount
       @satus = "reversed"
+      binding.pry
     end
   end
 
