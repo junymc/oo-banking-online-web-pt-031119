@@ -34,7 +34,7 @@ class Transfer
     @sender.balance += @amount
     @receiver.balance -= @amount
     @satus = "reversed"
-  end
+    end
   end
 
 end
