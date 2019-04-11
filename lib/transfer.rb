@@ -23,7 +23,7 @@ class Transfer
     elsif @status == "complete"
       @sender -= @amount
       @receiver += @amount
-      
+
     end
 
   end
