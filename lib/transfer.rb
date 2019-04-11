@@ -25,7 +25,7 @@ class Transfer
     else
       @sender.balance -= @amount
       @receiver.balance += @amount
-      return
+      @status = "complete"
 
     end
 
