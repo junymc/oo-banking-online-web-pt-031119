@@ -35,7 +35,6 @@ class Transfer
       @sender.balance += @amount * 2
       @receiver.balance -= @amount * 2
       @satus = "reversed"
-      binding.pry
     end
   end
 
