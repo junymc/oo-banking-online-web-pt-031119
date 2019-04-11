@@ -31,7 +31,7 @@ class Transfer
 
   def reverse_transfer
     @sender.balance += @amount
-    @receiver.balnace -= @amount
+    @receiver.balance -= @amount
     @satus = "reversed"
   end
 
